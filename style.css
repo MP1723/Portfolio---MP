@@ -28,7 +28,7 @@ body{
     padding: 0;
     background-image: url(images/MP1.png);
     background-size: 630px;
-    background-position: 85%;
+    background-position: 90%;
     background-repeat: no-repeat;
 }
 .container{
@@ -98,11 +98,15 @@ nav ul li a:hover::after{
     font-size: 30px;
 }
 .header-text h1{
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 20px;
 }
 .header-text h1 span{
     color: #4864ff;
+}
+.header-text p{
+    font-size: 33px;
+    font-weight: 600;
 }
 .img-box img{
     width: 600px;
@@ -343,12 +347,16 @@ nav ul li a:hover::after{
     transform: translateY(-5px);*/
 }
 .btn.btn2{
-    display: inline-block;
+    display: block;
     background: #4864ff;
     opacity: 0.7;
     transition: 0.3s;
     cursor: pointer;
     color: #fff;
+    margin: 0;
+    margin-top: 20px; 
+    margin-bottom: 30px;
+   
 }
 .btn.btn2:hover{
     opacity: 1;
@@ -397,11 +405,14 @@ nav .fa-solid{
         background-position: 100% 100%;
     }
     .header-text{
-        margin-top: 60%;
+        margin-top: 55%;
         font-size: 10px;
     }
     .header-text h1{
-        font-size: 21px;
+        font-size: 20px;
+    }
+    .header-text p{
+        font-size: 14px;
     }
 
     nav .logo{
@@ -478,8 +489,9 @@ nav .fa-solid{
 }
 #msg{
     color: #61b752;
-    margin-top: -40px;
-    display: block;
+    display: inline-block;
+    margin-left: 0;
+   
 }
 .slide-left{
     animation: slideleft 2s linear forwards;
