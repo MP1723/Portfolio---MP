@@ -405,7 +405,7 @@ nav .fa-solid{
         background-position: 100% 100%;
     }
     .header-text{
-        margin-top: 55%;
+        margin-top: 45%;
         font-size: 10px;
     }
     .header-text h1{
@@ -417,7 +417,7 @@ nav .fa-solid{
 
     nav .logo{
         position: absolute;
-        margin-top: 65%;
+        margin-top: 60%;
         margin-left: 25%;
         width: 120px;
     
