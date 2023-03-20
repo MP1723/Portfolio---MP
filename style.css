@@ -398,7 +398,7 @@ form.btn2{
 nav .fa-solid{
    display: none; 
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 600px){
     #header{
         background-image: url(images/MP1.png);
         background-size: 250px;
@@ -486,7 +486,6 @@ nav .fa-solid{
     .copyright{
         font-size: 15px;
     }
-}
 }
 @media screen and (max-width: 900px) and (min-width: 600px){
     #header{
